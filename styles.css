@@ -1,0 +1,88 @@
+<style>div {
+    border: 1px solid blue
+}
+
+.footerwrapper {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    background-color: lightgrey;
+    border: 1px solid grey
+}
+
+.section {
+    height: 50px;
+    margin: 8px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid blue
+}
+
+.headerwrapper {
+    text-align: center;
+    background-color: grey;
+    border: 1px solid greenyellow
+}
+
+.mainwrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid darkorchid
+}
+
+.mainpart {
+    flex-basis: 65%;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    align-items: flex-end;
+    height: 60vh;
+    border: 1px solid darkorchid
+}
+
+.aside {
+    flex-basis: 35%;
+    background-color: lightgreen;
+    text-align: center;
+    border: 1px solid darkorchid
+}
+
+.mainpart2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 8px;
+}
+
+.mainsections {
+    align-items: flex-end;
+}
+
+.h2 {
+    padding: 0px 0px 120px 0px;
+    text-align: center;
+}
+
+.part3 {
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: rgb(240, 240, 127);
+}
+
+.part1,
+.part2 {
+    display: flex;
+    flex-grow: 2;
+    margin: 0px 70px 0px 70px;
+    border: 1px solid blue;
+    text-align: center;
+    flex-basis: 50%;
+    box-sizing: border-box;
+    width: 200px;
+    background-color: rgb(240, 240, 127);
+    ;
+}
+
+</style>
